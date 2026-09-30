@@ -8,6 +8,11 @@ Newest changes at the top. Times are Shanghai time (UTC+8).
 
 ---
 
+## 2026-09-30 (night)
+
+### Removed
+- **Point of Contact:** removed the named student from the 2023 to 2025 timeline stop. It now reads "first-year courses on the SDGs and sustainability send students toward the Fellowship." All four pages have been checked and no student names remain. (21:05)
+
 ## 2026-09-30 (evening)
 
 ### Changed
@@ -54,7 +59,6 @@ Newest changes at the top. Times are Shanghai time (UTC+8).
 ---
 
 ## Open items
-- **Point of Contact page:** still quotes a current student by name. Remove this to follow the no-student-names rule.
 - **Club tags:** update the "This fall" tags once Student Involvement confirms which clubs are active.
 
 ## House rules for this site
