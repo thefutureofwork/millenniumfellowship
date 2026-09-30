@@ -11,6 +11,7 @@
 <meta name="theme-color" content="#57068c">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Manrope:wght@400;600;700;800&display=swap">
 <link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="resources.css">
 </head>
 <body>
 <a class="skip" href="#main">Skip to content</a>
@@ -23,6 +24,7 @@
 <span class="label">For NYU Shanghai fellows</span>
 <h1>Class of <em>2026</em></h1>
 <p>You're in the 5%. Here's everything you need between now and graduation, in the order you'll need it.</p>
+<div class="btns"><a class="btn ghost" href="#resources">Stuck? Jump to resources</a></div>
 </div></section>
 <section class="semester" aria-labelledby="sem-h"><div class="wrap">
 <span class="label">Class of 2026 · where we are</span>
@@ -82,6 +84,92 @@
 <a href="https://www.climateinteractive.org/en-roads/" target="_blank" rel="noopener"><b>En-ROADS Climate Simulator</b><span>Test climate policy tradeoffs in real time</span></a>
 </div>
 </div></section>
+<section class="section res" id="resources" aria-labelledby="res-h"><div class="wrap">
+<div class="res-head">
+<div>
+<span class="label">Resources for fellows</span>
+<h2 id="res-h">Stuck? Someone here can help.</h2>
+<p class="intro">Campus offices, Shanghai partners, tools and clubs. Tell them you're a Millennium Fellow, say what you need, and ask one specific question.</p>
+</div>
+<aside class="res-help" aria-label="Safety first">
+<b>Does your project touch mental health, violence, safety or children?</b>
+<p>Talk to Kat and the Student Health Center before anything goes public. Need support right now? Call the Wellness Exchange, 24/7: <a href="tel:+862120599999">+86-21-2059-9999</a></p>
+</aside>
+</div>
+
+<div class="res-filter" role="group" aria-label="Filter resources by need" hidden>
+<span class="q">I'm stuck on…</span>
+<button type="button" data-need="all" aria-pressed="true">Everything</button>
+<button type="button" data-need="impact" aria-pressed="false">Measuring impact</button>
+<button type="button" data-need="money" aria-pressed="false">Money</button>
+<button type="button" data-need="reach" aria-pressed="false">Reaching people</button>
+<button type="button" data-need="partners" aria-pressed="false">Finding partners</button>
+<button type="button" data-need="safety" aria-pressed="false">Safety &amp; ethics</button>
+<button type="button" data-need="pitch" aria-pressed="false">Pitching</button>
+<output aria-live="polite"></output>
+</div>
+
+<div class="res-group">
+<h3>On campus<small>NYU Shanghai offices</small></h3>
+<ul class="res-list">
+<li data-need="partners reach"><b>Center for Student Involvement</b><p>Service projects across Shanghai, club introductions, Dean's Service Corps.</p><span class="how"><a href="mailto:shanghai.involvement@nyu.edu">shanghai.involvement@nyu.edu</a></span></li>
+<li data-need="partners"><b>Dean's Service Corps</b><p>Elder-care visits, teaching in local schools, Alternative Break trips, Nanhui beach clean-ups.</p><span class="how">Through Student Involvement</span></li>
+<li data-need="safety"><b>Student Health Center</b><p>Expert check before any mental-health, violence or health content goes public.</p><span class="how">West Building, 4F · <a href="mailto:shanghai.health@nyu.edu">shanghai.health@nyu.edu</a></span></li>
+<li data-need="impact"><b>Library</b><p>1:1 research consultations, databases and data services for your baseline.</p><span class="how"><a href="https://shanghai.nyu.edu/library" target="_blank" rel="noopener">Book a consultation</a></span></li>
+<li data-need="reach"><b>RITS</b><p>Help building the website, app or digital tool your project needs.</p><span class="how"><a href="mailto:shanghai.rits@nyu.edu">shanghai.rits@nyu.edu</a></span></li>
+<li data-need="pitch"><b>Academic Resource Center</b><p>Writing &amp; Speaking assistants: rehearse your pitch before it counts.</p><span class="how">W523 · <a href="mailto:shanghai.arc@nyu.edu">shanghai.arc@nyu.edu</a></span></li>
+<li data-need="money partners"><b>Student Development Center</b><p>Career, entrepreneurship and alumni events: mentors for pilots and business models.</p><span class="how">Events on <a href="https://engage.shanghai.nyu.edu/" target="_blank" rel="noopener">Engage</a></span></li>
+<li data-need="money reach"><b>Student Government</b><p>Funds clubs; runs Environmental Sustainability and Wellness Initiatives committees.</p><span class="how"><a href="mailto:shanghai.student.government@nyu.edu">shanghai.student.government@nyu.edu</a></span></li>
+<li data-need="reach"><b>Magnolia House · B2 Café</b><p>Where past SDG campaigns drew real student crowds.</p><span class="how">On campus</span></li>
+</ul>
+</div>
+
+<div class="res-group">
+<h3>In Shanghai<small>Partners past NYUSH SDG students worked with</small></h3>
+<ul class="res-list">
+<li data-need="partners"><b>Stepping Stones</b><p>Volunteer teaching for migrant children, including coding at Kangaroo Baby Home.</p><span class="how">1F, No. 8, Lane 1279, Zhongshan West Rd, Changning</span></li>
+<li data-need="partners money"><b>Jushan Charity Store (Buy42)</b><p>Resells donated goods, staffed by people with disabilities; proceeds go to a children's hospital.</p><span class="how">480 Fuzhou Road</span></li>
+<li data-need="partners reach"><b>Tangqiao Residents' Committee</b><p>Community projects with residents of every age, like the 2025 reading-area mural.</p><span class="how">Tangqiao, Pudong · intro via Kat</span></li>
+<li data-need="partners reach"><b>Shanghai Volunteer</b><p>The city's volunteer platform, e.g. helping people with disabilities on transit.</p><span class="how">Register on the city platform</span></li>
+<li data-need="partners"><b>LILI TIME Café, Taikoo Li</b><p>Sign-language and deaf-community volunteering events.</p><span class="how">Taikoo Li (Taiguli)</span></li>
+</ul>
+</div>
+
+<div class="res-group">
+<h3>Tools<small>For planning and evidence</small></h3>
+<ul class="res-list">
+<li data-need="impact"><b>W.K. Kellogg Logic Model Guide</b><p>Turn your idea into outputs, outcomes and impact.</p><span class="how">Ask Kat for a copy</span></li>
+<li data-need="impact partners"><b>YSA Youth Changing the World Toolkit</b><p>Step-by-step project planning and community asset mapping.</p><span class="how">Ask Kat for a copy</span></li>
+<li data-need="impact pitch"><b>SDG Index</b><p>Where China and your SDG stand today: your baseline.</p><span class="how"><a href="https://dashboards.sdgindex.org/" target="_blank" rel="noopener">dashboards.sdgindex.org</a></span></li>
+<li data-need="impact pitch"><b>Our World in Data</b><p>Charts you can cite in your Evidence Plan and report.</p><span class="how"><a href="https://ourworldindata.org/" target="_blank" rel="noopener">ourworldindata.org</a></span></li>
+<li data-need="impact pitch"><b>Gapminder</b><p>Data that makes a pitch land in one slide.</p><span class="how"><a href="https://www.gapminder.org/" target="_blank" rel="noopener">gapminder.org</a></span></li>
+</ul>
+</div>
+
+<div class="res-group">
+<h3>Student clubs<small>Volunteers, audiences, co-hosts, skills</small></h3>
+<ul class="res-list">
+<li data-need="partners reach"><b>Medical Minds</b><p>Pre-health community for health-access projects.</p><span class="how"><a href="mailto:shanghai.medical.club@nyu.edu">shanghai.medical.club@nyu.edu</a></span></li>
+<li data-need="safety reach"><b>PsychSeekers</b><p>Audience and reviewers for mental-health content, alongside the Health Center, not instead of it.</p><span class="how"><a href="mailto:shanghai.psychology.club@nyu.edu">shanghai.psychology.club@nyu.edu</a></span></li>
+<li data-need="reach"><b>Language &amp; Linguistics</b><p>Bilingual help for translation and interpreting.</p><span class="how"><a href="mailto:shanghai.language.club@nyu.edu">shanghai.language.club@nyu.edu</a></span></li>
+<li data-need="partners"><b>PeerPal</b><p>Pen-pal mentoring with students in rural counties.</p><span class="how"><a href="mailto:sh.peerxnyush.club@nyu.edu">sh.peerxnyush.club@nyu.edu</a></span></li>
+<li data-need="pitch"><b>Model United Nations</b><p>Delegates, trainers and public-speaking practice.</p><span class="how"><a href="mailto:shanghai.mun.club@nyu.edu">shanghai.mun.club@nyu.edu</a></span></li>
+<li data-need="impact"><b>Social Sciencers <span class="live">This fall</span></b><p>Survey and interview help for your pilot data.</p><span class="how"><a href="mailto:shanghai.socialscience.club@nyu.edu">shanghai.socialscience.club@nyu.edu</a></span></li>
+<li data-need="reach partners"><b>Women at Work</b><p>Gender-equality events and partners for SDG 5 projects.</p><span class="how"><a href="mailto:shanghai.waw.club@nyu.edu">shanghai.waw.club@nyu.edu</a></span></li>
+<li data-need="reach"><b>Green Shanghai</b><p>Climate and circular-fashion crowd behind the Trash Fashion Show.</p><span class="how"><a href="mailto:sh.environment.club@nyu.edu">sh.environment.club@nyu.edu</a></span></li>
+<li data-need="safety"><b>Law and Policy</b><p>Policy and legal thinking: liability, rules, SDG 16.</p><span class="how"><a href="mailto:shanghai.lawandpolicy.club@nyu.edu">shanghai.lawandpolicy.club@nyu.edu</a></span></li>
+<li data-need="pitch"><b>TEDxNYUShanghai <span class="live">This fall</span></b><p>Talks, speakers and stage practice.</p><span class="how"><a href="mailto:sh.tedxnyushanghai.club@nyu.edu">sh.tedxnyushanghai.club@nyu.edu</a></span></li>
+<li data-need="money"><b>TAMID <span class="live">This fall</span></b><p>Student consultants for budgets and business models.</p><span class="how"><a href="mailto:sh.tamid.club@nyu.edu">sh.tamid.club@nyu.edu</a></span></li>
+<li data-need="money"><b>Economics Society <span class="live">This fall</span></b><p>Research teams and economics know-how for costing a pilot.</p><span class="how"><a href="mailto:sh.economics.club@nyu.edu">sh.economics.club@nyu.edu</a></span></li>
+<li data-need="money pitch"><b>Undergraduate Business Association</b><p>Business skills and pitch feedback.</p><span class="how"><a href="mailto:sh.uba.club@nyu.edu">sh.uba.club@nyu.edu</a></span></li>
+<li data-need="impact pitch"><b>24 Frames · ViewFinder</b><p>Film and photo clubs for capturing voices, videos and podcasts.</p><span class="how"><a href="mailto:sh.24frames.club@nyu.edu">sh.24frames.club@nyu.edu</a> · <a href="mailto:shanghai.viewfinder.club@nyu.edu">shanghai.viewfinder.club@nyu.edu</a></span></li>
+<li data-need="partners"><b>Kitty Committee · Fashion Club</b><p>Stray-cat care and clothing swaps.</p><span class="how">Through Student Involvement</span></li>
+</ul>
+</div>
+<p class="res-empty" hidden>Nothing tagged for that yet. Email Kat.</p>
+
+<p class="res-note"><span class="live">This fall</span> = seen active in Fall 2026. Club emails come from the NYU Shanghai Club Directory (last updated Fall 2025); partners come from past EAP 100 SDG projects. Check contacts are current before you reach out.</p>
+</div></section>
 
 </main>
 <footer><div class="wrap">
@@ -92,5 +180,6 @@
 <small>The Millennium Fellowship is a partnership of United Nations Academic Impact and MCN. This is an independent campus hub maintained by NYU Shanghai's Campus Point of Contact, not an official United Nations, MCN, or NYU Shanghai website.</small>
 </div></footer>
 <script src="site.js"></script>
+<script src="resources.js"></script>
 </body>
 </html>
