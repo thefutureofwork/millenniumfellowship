@@ -2,7 +2,7 @@
 
 Campus hub for the UN Academic Impact × MCN Millennium Fellowship at NYU Shanghai, maintained by Campus Point of Contact Katherine Tosi.
 
-Live site: https://thefutureofwork.github.io/milleniumfellowship/
+Live site: https://thefutureofwork.github.io/millenniumfellowship/
 
 | Page | For |
 | --- | --- |
