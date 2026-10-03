@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Logic Model Worksheet · Millennium Fellowship · NYU Shanghai</title>
+<meta name="description" content="A printable, fellow-friendly logic model worksheet for NYU Shanghai Millennium Fellows: Resources, Activities, Outputs, Outcomes, Impact.">
+<meta name="theme-color" content="#57068c">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Manrope:wght@400;600;700;800&display=swap">
+<link rel="stylesheet" href="style.css">
+<style>
+.lm{--v:#57068c;--ink:#22102e;--mu:#6b5a7c;--pa:#f6f2fa;--ca:#ece4f4;--y:#f7d64a;--li:#c9b8da;color:var(--ink);font-family:Manrope,system-ui,sans-serif}
+.lm-bar{display:flex;flex-wrap:wrap;gap:12px;align-items:center;margin:8px 0 28px}
+.lm-bar button,.lm-bar a{font:700 15px Manrope,sans-serif;padding:12px 18px;border-radius:999px;border:2px solid var(--v);background:var(--v);color:#fff;cursor:pointer;text-decoration:none;min-height:44px}
+.lm-bar a{background:transparent;color:var(--v)}
+.lm-bar p{margin:0;color:var(--mu);font-size:15px}
+.sheet{background:#fff;border:1px solid var(--ca);border-radius:18px;padding:28px;margin:0 0 28px}
+.sh-k{font-weight:800;font-size:13px;letter-spacing:.14em;text-transform:uppercase;color:var(--v)}
+.sh-h{display:flex;justify-content:space-between;align-items:flex-end;gap:24px;flex-wrap:wrap}
+.sheet h2{font-family:'Instrument Serif',serif;font-weight:400;font-size:44px;line-height:1;margin:8px 0 6px}
+.sheet h2 em{color:var(--v)}
+.sh-sub{color:var(--mu);font-size:16px;margin:0}
+.sh-name{display:flex;gap:20px;font-size:14px;color:var(--mu)}
+.sh-name div{width:190px}.sh-name u{display:block;border-bottom:1px solid var(--li);height:26px;text-decoration:none}
+.top{display:grid;grid-template-columns:1.5fr 1fr 1fr 2.2fr;gap:12px;margin-top:20px}
+.f{background:var(--pa);border-radius:10px;padding:10px 12px;min-height:76px}
+.f b{display:block;font-size:13px;letter-spacing:.06em;text-transform:uppercase;color:var(--v)}
+.f i{font-style:normal;color:var(--mu);font-size:14px}
+.chain{display:grid;grid-template-columns:1fr 20px 1fr 20px 1fr 20px 1fr 20px 1fr;margin-top:16px}
+.col{border:2px solid var(--v);border-radius:12px;padding:12px;min-height:330px;display:flex;flex-direction:column}
+.col.y{background:var(--y);border-color:var(--ink)}
+.n{font-weight:800;font-size:13px;color:var(--v)}.y .n{color:var(--ink)}
+.col h3{font-family:'Instrument Serif',serif;font-weight:400;font-size:30px;line-height:1;margin:4px 0 0}
+.q{font-weight:700;font-size:15px;margin:6px 0}
+.p{font-size:14px;color:var(--mu);margin:0}.y .p{color:var(--ink)}
+.tag{align-self:flex-start;margin-top:6px;font-size:12px;font-weight:800;letter-spacing:.05em;text-transform:uppercase;padding:2px 7px;border-radius:4px;background:var(--ca);color:var(--v)}
+.y .tag{background:var(--ink);color:var(--y)}
+.lines{flex:1;margin-top:8px;min-height:120px;background:repeating-linear-gradient(to bottom,transparent 0,transparent 25px,var(--li) 25px,var(--li) 26px)}
+.y .lines{background:repeating-linear-gradient(to bottom,transparent 0,transparent 25px,#22102e66 25px,#22102e66 26px)}
+.ar{display:flex;align-items:center;justify-content:center;color:var(--v);font-weight:800;font-size:20px}
+.bot{display:grid;grid-template-columns:1.6fr 1fr 1.2fr;gap:12px;margin-top:16px}
+.bot .f{min-height:92px}
+.sh-foot{display:flex;flex-wrap:wrap;gap:8px 24px;justify-content:space-between;margin-top:12px;font-size:13px;color:var(--mu)}
+.ex{display:grid;grid-template-columns:repeat(5,1fr);gap:12px;margin-top:16px}
+.ex div{background:var(--pa);border-radius:12px;padding:12px}.ex div.y{background:var(--y)}
+.ex h3{font-family:'Instrument Serif',serif;font-weight:400;font-size:24px;margin:4px 0 6px;line-height:1}
+.ex p{margin:0 0 6px;font-size:15px}
+.lab{font-size:12px;font-weight:800;letter-spacing:.08em;text-transform:uppercase;color:var(--v)}.y .lab{color:var(--ink)}
+.two{display:grid;grid-template-columns:1.1fr 1fr;gap:32px;margin-top:22px}
+.two h4{font-family:'Instrument Serif',serif;font-weight:400;font-size:28px;margin:0 0 8px;color:var(--v)}
+.two ol,.two ul{margin:0;padding-left:20px}.two li{margin:0 0 8px;font-size:16px}
+.note{border-left:3px solid var(--v);padding:4px 0 4px 14px;margin-top:14px;font-size:15px}
+@media (max-width:900px){
+.top,.bot,.ex,.two{grid-template-columns:1fr}
+.chain{grid-template-columns:1fr}.ar{transform:rotate(90deg);height:28px}
+.col{min-height:0}.lines{min-height:110px}
+.sheet{padding:18px}.sheet h2{font-size:36px}
+}
+@media print{
+@page{size:A4 landscape;margin:10mm 12mm}
+.mast,footer,.pagehead,.lm-bar,.skip{display:none!important}
+body{background:#fff}
+.wrap{max-width:none!important;padding:0!important;margin:0!important}
+.section{padding:0!important}
+.sheet{border:0;border-radius:0;padding:0;margin:0;break-after:page}
+.sheet:last-child{break-after:auto}
+.sheet h2{font-size:34pt}.sh-sub,.p,.f i,.ex p,.two li,.note{font-size:9.5pt}
+.q{font-size:10pt}.col h3{font-size:21pt}.ex h3{font-size:16pt}.two h4{font-size:18pt}
+.f b,.lab,.tag,.sh-k,.n,.sh-foot,.sh-name{font-size:8.5pt}
+.top .f{min-height:16mm}.col{min-height:80mm}.bot .f{min-height:20mm}.top,.chain,.bot{margin-top:3mm}.lines{min-height:0}.sh-foot{margin-top:2mm}
+.ex div{min-height:50mm}
+*{-webkit-print-color-adjust:exact;print-color-adjust:exact}
+}
+</style>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="mast"><div class="wrap mast-in">
+<a class="brand" href="index.html"><b>Millennium Fellowship</b><span>NYU Shanghai</span></a>
+<nav aria-label="Main"><a href="index.html">Home</a><a href="cohort.html" aria-current="page">Class of 2026</a><a href="apply.html">Apply</a><a href="contact.html">Point of Contact</a></nav>
+</div></header>
+<main id="main" class="lm">
+<section class="pagehead"><div class="wrap">
+<span class="label">Tools for fellows</span>
+<h1>Logic model <em>worksheet</em></h1>
+<p>One page from what you have to what keeps going after you step away. Print it, or fill it in on paper during the Project Clinic.</p>
+</div></section>
+<section class="section" style="padding-top:0"><div class="wrap">
+<div class="lm-bar"><button type="button" onclick="window.print()">Print this worksheet</button><a href="cohort.html#resources">Back to Resources</a><p>Prints on two A4 landscape pages: the worksheet, then a worked example.</p></div>
+
+<article class="sheet" aria-label="Logic model worksheet">
+<div class="sh-h"><div>
+<div class="sh-k">NYU Shanghai · Millennium Fellowship · Class of 2026</div>
+<h2>My <em>logic model</em></h2>
+<p class="sh-sub">Fill it left to right, then check it right to left.</p>
+</div><div class="sh-name"><div>Name / team<u></u></div><div>Date<u></u></div></div></div>
+<div class="top">
+<div class="f"><b>My project in one line</b></div>
+<div class="f"><b>SDG target</b><i>e.g. 4.6</i></div>
+<div class="f"><b>UNAI principle</b><i>one of the ten</i></div>
+<div class="f"><b>My SMART goal</b><i>from the SMART Relay</i></div>
+</div>
+<div class="chain">
+<div class="col"><span class="n">1</span><h3>Resources</h3><p class="q">What do I already have?</p><p class="p">People, partners, places, money, skills, time each week.</p><div class="lines"></div></div>
+<div class="ar" aria-hidden="true">→</div>
+<div class="col"><span class="n">2</span><h3>Activities</h3><p class="q">What will I do, and by when?</p><p class="p">The actions themselves. Start each with a verb and a date.</p><div class="lines"></div></div>
+<div class="ar" aria-hidden="true">→</div>
+<div class="col"><span class="n">3</span><h3>Outputs</h3><p class="q">What can I count?</p><p class="p">Sessions held, people reached, things made.</p><span class="tag">Reach</span><div class="lines"></div></div>
+<div class="ar" aria-hidden="true">→</div>
+<div class="col y"><span class="n">4</span><h3>Outcomes</h3><p class="q">What changes for them?</p><p class="p">What they know, feel or do differently, how you'll see it, and whose words you'll capture.</p><span class="tag">Change + Voice</span><div class="lines"></div></div>
+<div class="ar" aria-hidden="true">→</div>
+<div class="col"><span class="n">5</span><h3>Impact</h3><p class="q">What keeps going?</p><p class="p">What lasts after December, and who keeps it going.</p><div class="lines"></div></div>
+</div>
+<div class="bot">
+<div class="f"><b>My riskiest "if… then"</b><i>If we ________, then ________ will ________, because ________.</i></div>
+<div class="f"><b>Smallest pilot</b><i>How many people, how many weeks, what counts as success?</i></div>
+<div class="f"><b>Who could get hurt, and what won't I do?</b><i>Health, safety, children, mental health? Talk to Katherine Tosi first.</i></div>
+</div>
+<div class="sh-foot"><span>Adapted from the W.K. Kellogg Foundation (2004) Logic Model Development Guide</span><span>Prepared by Katherine Tosi · kt1992@nyu.edu</span></div>
+</article>
+
+<article class="sheet" aria-label="Worked example">
+<div class="sh-k">Logic model · worked example</div>
+<h2>See it <em>filled in</em></h2>
+<p class="sh-sub">Illustrative, adapted from a past EAP SDG community project. Details simplified.</p>
+<div class="ex">
+<div><span class="lab">1 · Resources</span><h3>What we had</h3><p>A team of four, three hours a week each.</p><p>A contact at the local residents' committee.</p><p>A blank wall beside a little-used reading area. Donated paint.</p></div>
+<div><span class="lab">2 · Activities</span><h3>What we did</h3><p>Asked residents what they'd want on the wall (week 2).</p><p>Sketched two designs and let residents vote (week 3).</p><p>Painted together over two weekends (weeks 5–6).</p></div>
+<div><span class="lab">3 · Outputs</span><h3>What we counted</h3><p>1 mural.</p><p>2 painting days.</p><p>Residents of every age who helped paint, counted at a sign-in sheet.</p></div>
+<div class="y"><span class="lab">4 · Outcomes</span><h3>What changed</h3><p>More people sat in the reading area after the mural than before (counted on the same weekday, before and after).</p><p>Voice: "Older residents told us they'd visit the reading area more often now."</p></div>
+<div><span class="lab">5 · Impact</span><h3>What keeps going</h3><p>The residents' committee agreed to keep the reading area open and stocked.</p><p>A short how-to so next year's fellows can run a second wall.</p></div>
+</div>
+<div class="two">
+<div><h4>Check it right to left</h4><ol>
+<li><b>Impact → Outcomes:</b> if this impact happens, which outcome had to happen first?</li>
+<li><b>Outcomes → Outputs:</b> are these outputs enough to cause that change? What else might cause it?</li>
+<li><b>Outputs → Activities:</b> does every output come from an activity with a date?</li>
+<li><b>Activities → Resources:</b> do you actually have the people, time and money for each activity?</li>
+</ol></div>
+<div><h4>Three common gaps</h4><ul>
+<li><b>Stopping at Outputs.</b> "We held 3 sessions" is not a change. Your plan needs at least one Outcome.</li>
+<li><b>An Outcome you can't see.</b> Name how you'll notice it: a count before and after, a question you'll ask, a photo.</li>
+<li><b>Impact with no owner.</b> Name the person or group who keeps it going after December.</li>
+</ul>
+<p class="note">Stuck? Bring this page to your Campus Co-Directors or to Katherine Tosi (<a href="mailto:kt1992@nyu.edu">kt1992@nyu.edu</a>). A smaller project you finish beats a big one you don't.</p></div>
+</div>
+<div class="sh-foot"><span>Source: W.K. Kellogg Foundation (2004) Logic Model Development Guide · <a href="https://wkkf.issuelab.org/resource/logic-model-development-guide.html" target="_blank" rel="noopener">free PDF</a></span><span>NYU Shanghai · Millennium Fellowship</span></div>
+</article>
+</div></section>
+</main>
+<footer><div class="wrap">
+<div class="foot">
+<div><b>Millennium Fellowship · NYU Shanghai</b>Campus Point of Contact: Katherine Tosi · <a href="mailto:kt1992@nyu.edu">kt1992@nyu.edu</a></div>
+<div><a href="https://www.millenniumfellows.org/" target="_blank" rel="noopener">millenniumfellows.org</a></div>
+</div>
+<small>The Millennium Fellowship is a partnership of United Nations Academic Impact and MCN. This is an independent campus hub maintained by NYU Shanghai's Campus Point of Contact, not an official United Nations, MCN, or NYU Shanghai website.</small>
+</div></footer>
+</body>
+</html>

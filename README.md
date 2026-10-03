@@ -8,6 +8,7 @@ Live site: https://thefutureofwork.github.io/millenniumfellowship/
 | --- | --- |
 | `index.html` | Front door: what the Fellowship is, live semester timeline |
 | `cohort.html` | Class of 2026: graduation checklist, SDG workshop, project rules, links |
+| `logic-model.html` | Printable Logic Model Worksheet (2 A4 landscape pages), linked from Tools |
 | `apply.html` | Future fellows: how to apply, FAQ |
 | `contact.html` | Campus Point of Contact and program history at NYU Shanghai |
 
