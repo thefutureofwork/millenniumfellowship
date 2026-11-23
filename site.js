@@ -75,7 +75,7 @@
     const graduationDue=document.querySelector('label[for="c8"] .when');
     if(graduationDue)graduationDue.textContent='Nov 18 · date passed';
   } else {
-    const homeShowcase=document.querySelector('.hero-grid #showcase');
+    const homeShowcase=document.querySelector('#showcase');
     if(homeShowcase){
       const label=homeShowcase.querySelector('.label');
       if(label)label.textContent='Showcase follow-up · date passed';
