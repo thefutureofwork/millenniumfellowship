@@ -2,14 +2,12 @@
 (function(){
   const cohortList=document.querySelector('.checklist[data-store="mf2026-nyush"]');
   const isCohort=!!cohortList;
-  if(isCohort){
-    // The official Global Graduation date was Nov 18, 2026. Change the local timeline's placeholder date.
-    const graduation=document.querySelector('.track .stop[data-date="2026-11-26"]');
-    if(graduation){
-      graduation.dataset.date='2026-11-18';
-      const label=graduation.querySelector('span');
-      if(label)label.innerHTML='Global graduation<em>Nov 18 · date passed</em>';
-    }
+  // The official Global Graduation date was Nov 18, 2026. The old local marker was a placeholder.
+  const graduation=document.querySelector('.track .stop[data-date="2026-11-26"]');
+  if(graduation){
+    graduation.dataset.date='2026-11-18';
+    const label=graduation.querySelector('span');
+    if(label)label.innerHTML='Global graduation<em>Nov 18 · date passed</em>';
   }
   const start=new Date(2026,7,1), end=new Date(2026,11,31), span=end-start;
   const pct=d=>Math.max(0,Math.min(100,(d-start)/span*100));
@@ -70,15 +68,26 @@
       const closing=showcase.querySelector('p:last-child');
       if(closing)closing.textContent='For questions about local graduation requirements or your project report, email your Campus Co-Directors. Check official program email for final instructions.';
     }
-    const timeline=document.querySelector('.track');
-    if(timeline)timeline.setAttribute('aria-label','Class of 2026 timeline: Global Town Hall August 20, portal opens August 31, National Day break October 1 to 7, Fellowship Showcase date November 12 has passed, Global Graduation was scheduled for November 18, and impact stories are due in December.');
+    const reportDue=document.querySelector('label[for="c7"] .when');
+    if(reportDue)reportDue.textContent='November · check email for exact deadline';
     const showcaseDue=document.querySelector('label[for="c10"] .when');
     if(showcaseDue)showcaseDue.textContent='Nov 12 · date passed';
     const graduationDue=document.querySelector('label[for="c8"] .when');
     if(graduationDue)graduationDue.textContent='Nov 18 · date passed';
-    const reportDue=document.querySelector('label[for="c7"] .when');
-    if(reportDue)reportDue.textContent='November · check email for exact deadline';
+  } else {
+    const homeShowcase=document.querySelector('.hero-grid #showcase');
+    if(homeShowcase){
+      const label=homeShowcase.querySelector('.label');
+      if(label)label.textContent='Showcase follow-up · date passed';
+      const description=homeShowcase.querySelector('.intro');
+      if(description)description.textContent='The Fellowship Showcase was scheduled for Thursday, November 12, 2026, at E303, NYU Shanghai. For follow-up, contact the Campus Co-Directors or visit the Class of 2026 hub.';
+      const button=homeShowcase.querySelector('.btns .btn');
+      if(button)button.textContent='Email the Co-Directors about follow-up';
+      const heroButton=document.querySelector('.hero-grid .btns a[href="#showcase"]');
+      if(heroButton)heroButton.textContent='Showcase · Nov 12 (date passed)';
+    }
   }
+  document.querySelectorAll('.track').forEach(t=>t.setAttribute('aria-label','Class of 2026 timeline: Global Town Hall August 20, portal opens August 31, National Day break October 1 to 7, Fellowship Showcase date November 12 has passed, Global Graduation was scheduled for November 18, and impact stories are due in December.'));
   // Cohort checklist, saved only in this browser.
   const list=document.querySelector('.checklist[data-store]');
   if(list){
