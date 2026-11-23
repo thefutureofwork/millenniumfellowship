@@ -11,15 +11,15 @@ Newest changes at the top. Times are Shanghai time (UTC+8).
 ## 2026-11-23 (morning)
 
 ### Changed
-- **Class of 2026 > Status:** added a Nov 23 check-in. Clarifies that the Nov 12 Showcase and Nov 18 Global Graduation dates have passed, that the program lists the project report in November and impact stories in December, and directs fellows to official email and Campus Co-Directors for current instructions. Checklist items remain unchecked unless a fellow marks them; no completion is inferred from dates.
-- **Class of 2026 > Global Graduation:** corrected the local timeline date to Nov 18 and added the official event time (10:00 am–12:00 pm ET), theme (“What Change Looks Like: Courage, Creativity, Community”), and [official Global Graduation 2026 page](https://www.millenniumfellows.org/global-graduation-2026).
-- **Class of 2026 > Showcase:** changed “Coming up” and “Ask about attending” to date-passed/follow-up wording. Updated the event details to the confirmed E303 venue and directed fellows to the Campus Co-Directors for follow-up.
-- **Class of 2026 > Checklist:** clarified that dates do not confirm completion, and made the Nov 12, Nov 18 and November report deadline statuses explicit without auto-checking tasks.
+- **Home + Class of 2026 > Timeline:** corrected the Global Graduation marker from the old placeholder date to the official November 18 date, and marked it as past.
+- **Class of 2026 > Status:** added a November 23 check-in clarifying that the November 12 Showcase date and November 18 Global Graduation date have passed. It gives the official ceremony time and theme, links to the official [Global Graduation 2026 page](https://www.millenniumfellows.org/global-graduation-2026), and directs fellows to official email and Campus Co-Directors for current instructions. Project-report and impact-story dates are described as listed by the program; no local deadlines are invented.
+- **Home + Class of 2026 > Showcase:** changed upcoming-event wording and the attendance CTA to date-passed/follow-up wording. Updated the cohort page with the scheduled date, time and confirmed E303 venue. The page says the Showcase was scheduled, not that it definitely took place.
+- **Class of 2026 > Checklist:** clarified that dates passing do not confirm completion. Updated the date labels for the Showcase, Global Graduation and November project report without automatically checking any boxes.
 
 ### Checked
-- Global Graduation date, time and theme from the official Millennium Fellowship page.
-- Local Showcase date/time/venue from the site's previous event details and changelog. The page says it was scheduled, not that it definitely took place.
-- Live page checked against the Nov 23, 2026 date.
+- Global Graduation date, time and theme against the official Millennium Fellowship page.
+- Local Showcase date/time/venue against the campus site's existing event details and changelog.
+- Existing cohort checklist remains locally saved in the fellow's browser; completion is not inferred.
 
 ## 2026-11-05 (night)
 
@@ -125,6 +125,6 @@ Newest changes at the top. Times are Shanghai time (UTC+8).
 - **After Nov 30:** check millenniumfellows.org/apply for the next priority deadline and update the Apply page.
 
 ## House rules for this site
-- Never name students. Campus Directors appear by email only.
+- Never name students. Campus Co-Directors appear by email only.
 - Link to official sources. Check every link before a workshop.
 - Log every change here: date, what changed, and which page.
