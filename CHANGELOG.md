@@ -8,6 +8,19 @@ Newest changes at the top. Times are Shanghai time (UTC+8).
 
 ---
 
+## 2026-11-23 (morning)
+
+### Changed
+- **Class of 2026 > Status:** added a Nov 23 check-in. Clarifies that the Nov 12 Showcase and Nov 18 Global Graduation dates have passed, that the program lists the project report in November and impact stories in December, and directs fellows to official email and Campus Co-Directors for current instructions. Checklist items remain unchecked unless a fellow marks them; no completion is inferred from dates.
+- **Class of 2026 > Global Graduation:** corrected the local timeline date to Nov 18 and added the official event time (10:00 am–12:00 pm ET), theme (“What Change Looks Like: Courage, Creativity, Community”), and [official Global Graduation 2026 page](https://www.millenniumfellows.org/global-graduation-2026).
+- **Class of 2026 > Showcase:** changed “Coming up” and “Ask about attending” to date-passed/follow-up wording. Updated the event details to the confirmed E303 venue and directed fellows to the Campus Co-Directors for follow-up.
+- **Class of 2026 > Checklist:** clarified that dates do not confirm completion, and made the Nov 12, Nov 18 and November report deadline statuses explicit without auto-checking tasks.
+
+### Checked
+- Global Graduation date, time and theme from the official Millennium Fellowship page.
+- Local Showcase date/time/venue from the site's previous event details and changelog. The page says it was scheduled, not that it definitely took place.
+- Live page checked against the Nov 23, 2026 date.
+
 ## 2026-11-05 (night)
 
 ### Changed
@@ -36,7 +49,7 @@ Newest changes at the top. Times are Shanghai time (UTC+8).
 - **Home > Fellowship Showcase:** new section with a date card. Thursday, November 12, about 5:30 to 7:30 pm, mixed-media project presentations hosted by the Campus Co-Directors, remarks from faculty advisor Katherine Tosi. Venue to come from the Co-Directors. "Ask about attending" emails both Co-Directors. (14:50)
 - **Home > Class of 2026 photo band:** wide cohort photo under the hero, captioned "Our fourth cohort in a row." Loads `cohort-2026.jpg` from the repo root and stays hidden until that file is uploaded. (14:50)
 - **Home > Class of 2025 · worldwide:** impact band with MCN's global figures: 4,869 fellows, 2,550 projects, 389,833 hours, 1,259,098 lives positively impacted. Labeled as global, not NYU Shanghai's. (14:50)
-- **Class of 2026 > Projects by SDG:** eight project cards (UniCare Bridge, Beyond the Molecule, Inside Out, EverSafe, Democratized Platform for University Information, The Investment Divide, Concept Change Towards Stray Cats, Students Against Poaching Initiative), each tagged and linked to its UN goal page (SDG 3, 5, 10, 11, 15). Projects only, no names. (14:50)
+- **Class of 2026 > Projects by SDG:** eight project cards (UniCare Bridge, Beyond the Molecule, Inside Out, EverSafe, Democratized Platform for University Information, The Investment Divide, Concept Change Towards Stray Cats, Students Against Poaching Initiative), each tagged and linked to their UN goal page (SDG 3, 5, 10, 11, 15). Projects only, no names. (14:50)
 - **Class of 2026 > Think in systems:** Waters Center for Systems Thinking section with three starter Habits of a Systems Thinker, links to the free Thinking Tools Studio courses and Habits cards, and the Logic Model Worksheet. (14:50)
 - **Class of 2026 > Checklist:** item 10, "Present at the Fellowship Showcase" (Nov 12). New checkbox id `c10` so saved progress is kept. (14:50)
 - **Class of 2026 > Tools and Links:** Thinking Tools Studio added to both. (14:50)
